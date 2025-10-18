@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeScreen"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/fragmentoBoton"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Button" />
+        <item
+            android:id="@+id/fragmentoEditText"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="EditText" />
+        <item
+            android:id="@+id/fragmentoRadioButton"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="RadioButton" />
+        <item
+            android:id="@+id/fragmentoCheckBox"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="CheckBox" />
+        <item
+            android:id="@+id/fragmentoSwitch"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Switch" />
+        <item
+            android:id="@+id/fragmentoSpinner"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Spinner" />
+        <item
+            android:id="@+id/fragmentoSeekBar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SeekBar" />
+        <item
+            android:id="@+id/fragmentoTextView"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TextView" />
+        <item
+            android:id="@+id/fragmentoImageView"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="ImageView" />
+        <item
+            android:id="@+id/fragmentoProgressBar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ProgressBar" />
+    </group>
+</menu>

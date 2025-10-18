@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.example.alan_uimenu.homeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:id="@+id/fragmentoBoton"
+        android:name="com.example.alan_uimenu.fragmentoBoton"
+        android:label="fragment_fragmento_boton"
+        tools:layout="@layout/fragment_fragmento_boton" />
+    <fragment
+        android:id="@+id/fragmentoEditText"
+        android:name="com.example.alan_uimenu.fragmentoEditText"
+        android:label="fragment_fragmento_edit_text"
+        tools:layout="@layout/fragment_fragmento_edit_text" />
+    <fragment
+        android:id="@+id/fragmentoRadioButton"
+        android:name="com.example.alan_uimenu.fragmentoRadioButton"
+        android:label="fragment_fragmento_radio_button"
+        tools:layout="@layout/fragment_fragmento_radio_button" />
+    <fragment
+        android:id="@+id/fragmentoCheckBox"
+        android:name="com.example.alan_uimenu.fragmentoCheckBox"
+        android:label="fragment_fragmento_check_box"
+        tools:layout="@layout/fragment_fragmento_check_box" />
+    <fragment
+        android:id="@+id/fragmentoSwitch"
+        android:name="com.example.alan_uimenu.fragmentoSwitch"
+        android:label="fragment_fragmento_switch"
+        tools:layout="@layout/fragment_fragmento_switch" />
+    <fragment
+        android:id="@+id/fragmentoSpinner"
+        android:name="com.example.alan_uimenu.fragmentoSpinner"
+        android:label="fragment_fragmento_spinner"
+        tools:layout="@layout/fragment_fragmento_spinner" />
+    <fragment
+        android:id="@+id/fragmentoSeekBar"
+        android:name="com.example.alan_uimenu.fragmentoSeekBar"
+        android:label="fragment_fragmento_seek_bar"
+        tools:layout="@layout/fragment_fragmento_seek_bar" />
+    <fragment
+        android:id="@+id/fragmentoTextView"
+        android:name="com.example.alan_uimenu.fragmentoTextView"
+        android:label="fragment_fragmento_text_view"
+        tools:layout="@layout/fragment_fragmento_text_view" />
+    <fragment
+        android:id="@+id/fragmentoImageView"
+        android:name="com.example.alan_uimenu.fragmentoImageView"
+        android:label="fragment_fragmento_image_view"
+        tools:layout="@layout/fragment_fragmento_image_view" />
+    <fragment
+        android:id="@+id/fragmentoProgressBar"
+        android:name="com.example.alan_uimenu.fragmentoProgressBar"
+        android:label="fragment_fragmento_progress_bar"
+        tools:layout="@layout/fragment_fragmento_progress_bar" />
+
+</navigation>
